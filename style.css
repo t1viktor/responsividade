@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 60px;
+}
+
+h1{
+    font-size: 1rem;
+}
+
+@media (max-width:600px){
+    :root{
+        font-size: 20px;
+    }
+
+    img{
+        width: 200px;
+    }
+
+}
